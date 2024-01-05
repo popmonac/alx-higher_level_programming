@@ -1,1 +1,1 @@
-Dealin with if statements loops and funtions
+Control statements with if statement
