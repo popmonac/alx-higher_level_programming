@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-a = 0
-for i in range(122, 96, -1):
-    a += 1
-    if a % 2 == 0:
-        print("{:c}".format(i - 32), end="")
+for j in range(ord('z'), ord('a') - 1, -1):
+    if j % 2 == 0:
+        diff = 0
     else:
-        print("{:c}".format(i), end="")
+        diff = 32
+    print('{}'.format(chr(j - diff)), end='')
