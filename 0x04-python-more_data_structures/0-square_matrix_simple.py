@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
 
+    new_matrix = []
     if not matrix:
       return None
 
