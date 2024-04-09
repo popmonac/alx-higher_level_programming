@@ -7,18 +7,20 @@ class Rectangle:
     This Function create a Rectangle Class
 
     Attributes:
-        height (int): Height if rectangle
         width (int): Width of rectangle
+        height (int): Height if rectangle
     """
-    def __init__(self, height=0, width=0):
+    def __init__(self, width=0, height=0):
         """
             initializes the public attributes
-            height (int): Height of the rectangle
+
             width (int): Width of the rectangle
+            height (int): Height of the rectangle
+
             Return: Nothing
         """
-        self.__height = height
         self.__width = width
+        self.__height = height
 
     @property
     def width(self):

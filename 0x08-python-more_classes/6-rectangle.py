@@ -5,14 +5,14 @@
 class Rectangle:
     """
     This Function create a Rectangle Class
-    
+
     Attributes:
     width (int): Width of rectangle
     height (int): Height if rectangle
     """
     number_of_instances = 0
 
-    def __init__(self, height=0, width=0):
+    def __init__(self, width=0, height=0):
         """
             initializes the public attributes
 
@@ -21,8 +21,8 @@ class Rectangle:
 
             Return: Nothing
         """
-        self.__height = height
         self.__width = width
+        self.__height = height
         Rectangle.number_of_instances += 1
 
     @property
